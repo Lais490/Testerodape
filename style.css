@@ -1,0 +1,52 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{width: 100%;
+    height: 100vh;
+    text-align: center;
+    letter-spacing: 1px;
+color: #828282;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+.text{align-items: center;
+margin-top: 64px;
+margin-bottom: 64px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.text strong{ color: #3F3D56;}
+
+h1{color: #3F3D56;
+    font-family: 'Dosis', sans-serif;}
+
+h1 span{color: #EE24FF;}
+
+
+.line{ border: 0.5px solid #ECEFF2;
+width: 391px ;
+margin: 64px auto 8px;}
+
+.links a {color:#3F3D56 ;
+    text-decoration: none;
+    font-weight: bolder;
+    
+    }
+
+.links a:hover {color: #EE24FF;}
+
+.links a + a  {color:#3F3D56 ;
+text-decoration: none;
+margin-left: 28px;
+
+}
+
+
+footer {margin-bottom: 0;
+height: 100px;
+background-image: url(images/Wave.svg);
+background-size: cover;
+margin-top: 100px;}
